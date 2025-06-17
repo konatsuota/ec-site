@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>カート</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    .cart {
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 8px;
+      width: 400px;
+      margin: auto;
+    }
+    .cart h2 {
+      text-align: center;
+    }
+    .item {
+      margin-bottom: 20px;
+    }
+    .purchase-btn {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cart">
+    <h2>カートの中身</h2>
+
+    <div class="item">
+      <p>商品名：ブラックオーバーサイズ Tシャツ</p>
+      <p>価格：¥2,800</p>
+    </div>
+
+    <!-- 合計金額 -->
+    <p>合計：¥2,800</p>
+
+    <!-- 購入ボタン -->
+    <div class="purchase-btn">
+      <a href="complete.html">購入を確定する</a>
+    </div>
+  </div>
+
+</body>
+</html>
