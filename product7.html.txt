@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>商品詳細 - ホワイトリュックサック</title>
+  <style>/* 同上 */</style>
+</head>
+<body>
+  <h1>商品詳細</h1>
+  <div class="product-container">
+    <img src="https://unsplash.com/ja/%E5%86%99%E7%9C%9F/%E9%BB%84%E8%89%B2%E3%81%84%E5%A3%81%E3%81%AB%E3%81%B6%E3%82%89%E4%B8%8B%E3%81%8C%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E7%99%BD%E3%81%84%E3%83%90%E3%83%83%E3%82%AF%E3%83%91%E3%83%83%E3%82%AF-oRAqLrLPPN8" alt="ホワイトリュックサック">
+    <div class="product-info">
+      <div class="product-name">ホワイト リュックサック</div>
+      <div class="product-price">￥5,500</div>
+      <div class="product-description">シンプルで使いやすいデザイン。通学にもデイリーにもおすすめ。</div>
+      <button class="cart-button">カートに追加</button>
+    </div>
+  </div>
+
+<!-- カートに入れるボタン -->
+<a href="cart.html">カートに入れる</a>
+
+</body>
+</html>
